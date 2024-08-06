@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: "Montserrat", sans-serif; */
+    /* overflow: hidden; */
+  }
+   
+  /* --- Customize ScrollBars --- */
+  .footer .center .linkedin-content::-webkit-scrollbar {
+    width: 11px;
+  }
+  .footer .center .linkedin-content::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  .footer .center .linkedin-content::-webkit-scrollbar-thumb {
+    background: #676767;
+    border-radius: 7px;
+  }
+  
+  /* Header Styles Starts Here */
+  header {
+    background-color: #ec9122;
+    padding: 5px 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .header .icons i {
+    margin-right: 7px;
+    transition: all 0.3s ease;
+  }
+  .header .icons i:hover {
+    scale: 1.2;
+    color: #5f86c3;
+  }
+  .header .email i {
+    margin-right: 1px;
+  }
+  /* Header Styles Ends Here */
+
+
+  /* Nav Styles Starts Here */
+  nav {
+    padding: 12px 0 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  nav .nav-link {
+    font-weight: 500;
+  }
+  nav .dropdown-menu {
+    background-color: #e79b3e !important;
+  }
+  nav .dropdown-item {
+    color: #fff;
+    font-weight: 400;
+  }
+  nav .dropdown-item:hover,
+  nav .dropdown-item:focus {
+    background-color: #e79b3e !important;
+    color: #fff;
+  }
+
+  /* .dropdown-toggle::after {
+    display: none;
+  } */
+
+  /* Nav Styles Ends Here */
+
+
+  /* Top Image Section Starts Here */
+  .top-image{
+    overflow: hidden;
+  }
+  .top-image img{
+    width: 100%;
+  }
+  /* Top Image Section Ends Here */
+
+
+  /* Top Text Section Starts Here */
+  .top-text{
+    margin-top: 4rem;
+  }
+  .top-text h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+  }
+  .top-text p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.05rem;
+    margin-top: 1.8rem;
+    font-weight: 500;
+    text-align: justify;
+  }
+  /* Top Text Section Ends Here */
+
+
+  /* Service Section Starts Here */
+  .service-bg{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 4rem;
+    position: relative;
+  }
+  .service-bg img{
+    width: 100%;
+  }
+  .service-bg .service-content{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  .service-bg .service-content h1{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+  }
+  .service-bg .service-content .btn-row{
+    margin-top: 3.5rem;
+  }
+  .service-bg .service-content .btn-row button{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+    margin-bottom: 1rem;
+  }
+  .service-bg .service-content .btn-row button:hover{
+    background-color: #dfdfdf;
+  }
+  .service-bg .service-content .btn-row button.btn-active{
+    color: #fff;
+    background-color: #ff920c;
+  }
+  .service-bg .service-content .btn-row button.btn-active:hover{
+    background-color: #e8840a;
+  }
+  .service-bg .service-content p{
+   color: #fff;
+   margin-top: 2rem;
+   font-family: "Montserrat", sans-serif;
+   font-size: 1rem;
+   font-weight: 500;
+   min-height: 3.2rem;
+  }
+  /* Service Section Ends Here */
+
+
+  /* Wind Projects Section Starts Here*/
+  .wind-projects{
+    padding: 5rem 0 0 0;
+  }
+  .wind-projects h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+  }
+  .wind-projects .wind-projects-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .wind-projects .wind-projects-content .left{
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .wind-projects .wind-projects-content .left img{ 
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+  }
+  .wind-projects .wind-projects-content .right{ 
+    width: 57%;
+  }
+  .wind-projects .wind-projects-content .right .right-text{ 
+    display: flex;
+  }
+  .wind-projects .wind-projects-content .right p{ 
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .wind-projects .wind-projects-content .right i{ 
+    color: #ff920c;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-top: 3.5px;
+  }
+  
+  /* Wind Projects Section Ends Here*/
+
+
+  /* Hydro Projects Section Starts Here*/
+  .hydro-projects{
+    padding: 5rem 0 0 0;
+  }
+  .hydro-projects h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+  }
+  .hydro-projects .hydro-projects-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .hydro-projects .hydro-projects-content .left{
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .hydro-projects .hydro-projects-content .left img{ 
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+  }
+  .hydro-projects .hydro-projects-content .right{ 
+    width: 57%;
+  }
+  .hydro-projects .hydro-projects-content .right .right-text{ 
+    display: flex;
+  }
+  .hydro-projects .hydro-projects-content .right p{ 
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .hydro-projects .hydro-projects-content .right i{ 
+    color: #ff920c;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-top: 3.5px;
+  }
+  
+  /* Hydro Projects Section Ends Here*/
+
+
+  /* Three Boxes Section Starts Here */
+  .three-boxes{
+    padding: 4rem 0;
+  }
+  .box-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-row .box{
+    width: 30%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.292) 0px 4px 10px;
+  }
+  .box-row .box h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+  .box-row .box p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  /* Three Boxes Section Ends Here */
+
+
+  /* Slider Section Starts Here */
+  .marquee-container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+  }
+  .marquee {
+    overflow-x: clip;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .marquee-inner {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    /* padding: 1rem 0; */
+    will-change: transform;
+  }
+  
+  .marquee-inner img {
+    height: 100%;
+    transition: transform 0.5s;
+    flex-shrink: 0;
+    width: 11vw;
+    border-radius: 2rem;
+    margin-right: 1rem;
+  }
+  .marquee-inner #img-6 {
+    width: 15vw;
+  }
+  
+  .marquee-inner img:hover {
+    transform: scale(1.03);
+  }
+  /* Slider Section Ends Here */
+
+
+  /* Contact Us Section Starts Here */
+  .contact{
+    background-color: #f2f2f2;
+    padding: 3rem 0 6rem 0;
+    margin-top: 3rem;
+  }
+  .contact .contact-box h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+  }
+  .contact .contact-box .contact-row{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+  }
+  .contact .contact-box .contact-row .contact-person{
+    width: 40%;
+    display: flex;
+    background-color: #e0e0e0;
+    gap: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .contact .contact-box .contact-row .contact-person .person-image{
+    width: 30%;
+  }
+  .contact .contact-box .contact-row .contact-person .person-image img{
+    width: 100%;
+  }
+  .contact .contact-box .contact-row .contact-person .person-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact .contact-box .contact-row .contact-person .person-details h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+  }
+  .contact .contact-box .contact-row .contact-person .person-details p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    font-weight: 500;
+    margin: 0;
+  }
+  .contact .contact-box .contact-row .contact-person .person-details p span{
+    font-weight: 700;
+  }
+  .contact .contact-box .contact-row .contact-person .person-details>div{
+    margin-top: 0.8rem;
+  }
+  /* Contact Us Section Ends Here */
+
+
+  /* Footer Styles Starts Here */
+  footer{
+    background-color: #ec9122;
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .left{
+    width: 29%;
+    color: #fff;
+  }
+  .footer .left img{
+    background-color: #fff;
+    padding: 0.5rem 0.8rem;
+    margin-top: 1rem;
+  }
+  .footer .left a{
+    color: #fff;
+  }
+  .footer .left .foot-icons{
+    margin-top: 2rem;
+  }
+  .footer .left .foot-icons i{
+    margin-right: 0.7rem;
+    font-size: 1.3rem;
+    transition: all 0.2s ease;
+  }
+  .footer .left .foot-icons i:hover{
+    scale: 1.1;
+    color: #5f86c3;
+  }
+  
+  .footer .center{
+    width: 30%;
+  }
+  .footer .center h3{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .footer .center img{
+    width: 100%;
+    /* position: relative; */
+  }
+  .footer .center button{
+    position: absolute;
+    left: 75%;
+    top: 46%;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #616161;
+    background-color: #f9f9f9;
+    transition: all 0.2s ease;
+  }
+  .footer .center button:hover{
+    background-color: #ededede4;
+  }
+  .footer .center .linkedin-content{
+   height: 150px;
+   overflow-y: scroll;
+   padding: 10px;
+   background-color: #d2d0d0;
+  }
+  
+  .footer .end{
+   width: 22%;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+  }
+  .footer .end h3{
+   font-size: 1.1rem;
+  }
+  .footer .end p{
+   font-size: 0.8rem;
+  }
+  .footer .end div{
+   margin-bottom: 1rem;
+  }
+  /* .footer .end img{
+   width: 30px;
+   margin-left: 90%;
+   margin-top: 1.3rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+  } */
+  /* .footer .end img:hover{
+   scale: 1.1;
+  } */
+  .footer-line .line{
+    width: 100%;
+    height: 1.5px;
+    background-color: #fff;
+    margin-top: 1rem;
+  }
+  .copyright{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   margin-top: 7px;
+   font-size: 0.9rem;
+  }
+
+  #back-to-top{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.3s ease;
+  }
+  #back-to-top:hover{
+      scale: 1.1;
+  }
+
+/* Footer Styles Ends Here */
