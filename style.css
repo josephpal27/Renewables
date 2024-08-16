@@ -177,37 +177,56 @@
     font-size: 2.2rem;
   }
   .wind-projects .wind-projects-content{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin-top: 4rem;
   }
+  .wind-projects .wind-projects-content .wind-projects-top{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .wind-projects .wind-projects-content .left{
-    width: 40%;
+    width: 45%;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-self: flex-start;
+    /* flex-direction: column; */
   }
   .wind-projects .wind-projects-content .left img{ 
     width: 100%;
-    height: 85%;
+    height: 60%;
     object-fit: contain;
   }
-  .wind-projects .wind-projects-content .right{ 
+  .wind-projects .right{ 
     width: 57%;
   }
-  .wind-projects .wind-projects-content .right .right-text{ 
+  .wind-projects .right .right-text{ 
     display: flex;
+    /* margin-bottom: 1.5rem; */
   }
-  .wind-projects .wind-projects-content .right p{ 
+  .wind-projects .right-text p{ 
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 2.8rem;
   }
-  .wind-projects .wind-projects-content .right i{ 
+  .wind-projects .right-text i{ 
     color: #ff920c;
     font-size: 1.4rem;
     margin-right: 1rem;
     margin-top: 3.5px;
+  }
+  .wind-projects .wind-projects-bottom{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .wind-projects .wind-projects-bottom .right-text{ 
+    display: flex;
+    max-width: 80%;
+    margin-left: 20%;
   }
   
   /* Wind Projects Section Ends Here*/
@@ -217,36 +236,44 @@
   .hydro-projects{
     padding: 5rem 0 0 0;
   }
+  .hydro-projects-top{
+    display: flex;
+    justify-content: space-between;
+  }
   .hydro-projects h1{
     font-family: "Montserrat", sans-serif;
     font-size: 2.2rem;
   }
   .hydro-projects .hydro-projects-content{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 4rem;
   }
   .hydro-projects .hydro-projects-content .left{
-    width: 40%;
+    width: 45%;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .hydro-projects .hydro-projects-content .left img{ 
     width: 100%;
-    height: 85%;
-    object-fit: contain;
+    height: 87%;
+    /* object-fit: contain; */
   }
   .hydro-projects .hydro-projects-content .right{ 
-    width: 57%;
+    width: 55%;
   }
-  .hydro-projects .hydro-projects-content .right .right-text{ 
+  .hydro-projects .hydro-projects-content .hydro-projects-top .right .right-text{ 
     display: flex;
+    max-width: 80%;
+    margin-left: 20%;
   }
-  .hydro-projects .hydro-projects-content .right p{ 
+  .hydro-projects .hydro-projects-content p{ 
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 2.8rem;
   }
   .hydro-projects .hydro-projects-content .right i{ 
     color: #ff920c;
@@ -254,6 +281,15 @@
     margin-right: 1rem;
     margin-top: 3.5px;
   }
+
+  .hydro-projects-bottom{
+    display: flex;
+    margin-top: 2rem;
+  }
+  .hydro-projects-bottom .right-text{
+    display: flex;
+  }
+ 
   
   /* Hydro Projects Section Ends Here*/
 
