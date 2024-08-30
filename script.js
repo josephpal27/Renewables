@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const checkScrollPosition = () => {
     const scrollPosition = window.scrollY;
-    const triggerPosition = 2200; // Set your trigger scroll position
+    const triggerPosition = 4300; // Set your trigger scroll position
 
     if (scrollPosition >= triggerPosition && !hasAnimated) {
       countElements.forEach((element) => {
