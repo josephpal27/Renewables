@@ -328,7 +328,7 @@
   }
   .ongoing-assignments .project-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem 1rem;
     overflow: hidden;
     /* background-color: red; */
